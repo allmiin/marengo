@@ -2,10 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background-color: #333;
     color: #fff;
 }
-
+/* Add a line separator */
+.separator {
+    border-bottom: 1px solid #fff;
+    margin: 20px 0;
+}
 header {
     display: flex;
     justify-content: space-between;
