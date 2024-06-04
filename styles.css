@@ -1,146 +1,80 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI & Cloud Consulting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Company Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#contact">Let's Talk</a></li>
+                <li><a href="#login">Log In</a></li>
+            </ul>
+        </nav>
+    </header>
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
-}
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1>Business Consultants<br>With a Growth Mindset</h1>
+                <button class="learn-more-btn">Get a Free Consultation</button>
+            </div>
+            <div class="hero-image">
+                <img src="hero-image.png" alt="Consulting Image">
+            </div>
+        </section>
 
-header .logo img {
-    max-width: 100px;
-}
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>AI Strategy Development</h3>
+                <p>Helping you develop a comprehensive AI strategy tailored to your business needs.</p>
+                <button class="service-btn">Read More</button>
+            </div>
+            <div class="service">
+                <h3>Cloud Architecture Design</h3>
+                <p>Designing scalable and robust cloud architectures to meet your technical requirements.</p>
+                <button class="service-btn">Book Now</button>
+            </div>
+            <div class="service">
+                <h3>Data Analytics Solutions</h3>
+                <p>Implementing advanced data analytics solutions to unlock insights and drive decision-making.</p>
+                <button class="service-btn">Read More</button>
+            </div>
+            <div class="service">
+                <h3>Machine Learning Implementation</h3>
+                <p>Deploying machine learning models to automate processes and improve efficiency.</p>
+                <button class="service-btn">Book Now</button>
+            </div>
+        </section>
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
 
-nav ul li {
-    margin-left: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.hero-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 50px;
-    background-color: #fff;
-}
-
-.hero-section .hero-content {
-    flex: 1;
-}
-
-.hero-section .hero-content h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.hero-section .hero-content p {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-.hero-section .hero-content .learn-more-btn {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.hero-section .hero-content .learn-more-btn:hover {
-    background-color: #0056b3;
-}
-
-.hero-section .hero-image {
-    flex: 1;
-}
-
-.hero-section .hero-image img {
-    max-width: 100%;
-}
-
-#services {
-    padding: 50px;
-    background-color: #fff;
-    text-align: center;
-}
-
-#services h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-#services .service {
-    margin-bottom: 20px;
-}
-
-#contact {
-    padding: 50px;
-    background-color: #fff;
-    text-align: center;
-}
-
-#contact h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-#contact form {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-#contact form label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-}
-
-#contact form input,
-#contact form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-#contact form button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#contact form button:hover {
-    background-color: #0056b3;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
+    <footer>
+        <p>&copy; 2024 AI & Cloud Consulting</p>
+    </footer>
+</body>
+</html>
