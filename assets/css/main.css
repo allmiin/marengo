@@ -2444,7 +2444,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #6d9f27;
+			color: #151514;
 			content: '\f00c';
 		}
 
@@ -2536,15 +2536,15 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #6d9f27;
+					color: #151514;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #6d9f27;
+					color: #151514;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #6d9f27;
+					color: #151514;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
