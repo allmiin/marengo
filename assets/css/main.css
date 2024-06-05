@@ -3248,19 +3248,19 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #6d9f27;
+			background-color: #151514;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #151514;
 		}
 
 		.wrapper.style3 {
-			background-color: #6d9f27;
+			background-color: #151514;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #151514;
 		}
 
 		.wrapper.fullscreen {
@@ -3765,10 +3765,10 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #6d9f27, #6d9f27);
-				background-image: -webkit-linear-gradient(to right, #6d9f27, #6d9f27);
-				background-image: -ms-linear-gradient(to right, #6d9f27, #6d9f27);
-				background-image: linear-gradient(to right, #6d9f27, #6d9f27);
+				background-image: -moz-linear-gradient(to right, #6d9f27, #151514);
+				background-image: -webkit-linear-gradient(to right, #6d9f27, #151514);
+				background-image: -ms-linear-gradient(to right, #6d9f27, #151514);
+				background-image: linear-gradient(to right, #6d9f27, #151514);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
